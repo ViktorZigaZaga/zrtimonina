@@ -21,7 +21,7 @@ function HomePage() {
                 </button>
             </div>
             <div className="article__photo">
-                <img src="src/images/062A0071.jpg" alt="фото учителя" width="400em" height="600em" />
+                <img src="src/images/062A0071.jpeg" alt="фото учителя" width="400em" height="600em" />
             </div>
         </article>
     )
