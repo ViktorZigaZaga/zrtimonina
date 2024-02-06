@@ -40,7 +40,7 @@ function AboutMe() {
                 </div>
                 <div className="article__paragraph aboutme">
                     <span className="material-symbols-outlined"> workspace_premium </span>
-                    <h2>Повышение кваливикации:</h2>
+                    <h2>Повышение квалификации:</h2>
                     <Modal active={modalActive} setActive={setModalActive}>
                     <StoreCertificates onClick={() => setModalActive(true)} />
                     </Modal>
