@@ -1,13 +1,16 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Menu from './components/Menu'
-import HomePage from './components/HomePage'
-import AboutMe from './components/AboutMe'
-import MyExperience from './components/MyExperience'
-import CheckYourself from './components/CheckYourself'
-import ExamPreparation from './components/ExamPreparation'
-import Interestingly from './components/Interestingly'
-import WriteMe from './components/WriteMe'
+import Menu from './pages/Menu'
+import HomePage from './pages/HomePage'
+import AboutMe from './pages/AboutMe'
+import MyExperience from './pages/MyExperience'
+import CheckYourself from './pages/CheckYourself'
+import ExamPreparation from './pages/ExamPreparation'
+import Interestingly from './pages/Interestingly'
+import WriteMe from './pages/WriteMe'
+import { createContext } from 'react'
+
+export const Context = createContext(null);
 
 function App() {
   return (
