@@ -1,5 +1,5 @@
 import React from "react";
-import PropsTypes from 'prop-types';
+// import PropsTypes from 'prop-types';
 import MarksOfDistinctionItem from './MarksOfDistinctionItem'
 import { v4 as uuidv4 } from 'uuid';
 
@@ -15,6 +15,6 @@ export default function MarksOfDistinctionListView(props) {
     );
 }
 
-MarksOfDistinctionListView.propsTypes = {
-    items: PropsTypes.arrayOf(PropsTypes.object).isRequired
-}
+// MarksOfDistinctionListView.propsTypes = {
+//     items: PropsTypes.arrayOf(PropsTypes.object).isRequired
+// }

@@ -1,5 +1,5 @@
 import React from "react";
-import PropsTypes from 'prop-types';
+// import PropsTypes from 'prop-types';
 import EncouragementsItem from './EncouragementsItem'
 import { v4 as uuidv4 } from 'uuid';
 
@@ -15,6 +15,6 @@ export default function EncouragementsListView(props) {
     );
 }
 
-EncouragementsListView.propsTypes = {
-    items: PropsTypes.arrayOf(PropsTypes.object).isRequired
-}
+// EncouragementsListView.propsTypes = {
+//     items: PropsTypes.arrayOf(PropsTypes.object).isRequired
+// }

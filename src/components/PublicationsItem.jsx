@@ -1,5 +1,5 @@
 import React from "react";
-import PropsTypes from 'prop-types';
+// import PropsTypes from 'prop-types';
 
 export default function PublicationsItem(props) {
     const {item} = props;
@@ -14,6 +14,6 @@ export default function PublicationsItem(props) {
     );
 }
 
-PublicationsItem.propsTypes = {
-    item: PropsTypes.object.isRequired
-}
+// PublicationsItem.propsTypes = {
+//     item: PropsTypes.object.isRequired
+// }

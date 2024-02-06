@@ -1,5 +1,5 @@
 import React from "react";
-import PropsTypes from 'prop-types';
+// import PropsTypes from 'prop-types';
 
 export default function CertificatesItem(props) {
     const {item} = props;
@@ -14,6 +14,6 @@ export default function CertificatesItem(props) {
     );
 }
 
-CertificatesItem.propsTypes = {
-    item: PropsTypes.object.isRequired
-}
+// CertificatesItem.propsTypes = {
+//     item: PropsTypes.object.isRequired
+// }

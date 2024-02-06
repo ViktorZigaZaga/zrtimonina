@@ -1,5 +1,5 @@
 import React from "react";
-import PropsTypes from 'prop-types';
+// import PropsTypes from 'prop-types';
 import PublicationsItem from './PublicationsItem'
 import { v4 as uuidv4 } from 'uuid';
 
@@ -15,6 +15,6 @@ export default function PublicationsListView(props) {
     );
 }
 
-PublicationsListView.propsTypes = {
-    items: PropsTypes.arrayOf(PropsTypes.object).isRequired
-}
+// PublicationsListView.propsTypes = {
+//     items: PropsTypes.arrayOf(PropsTypes.object).isRequired
+// }

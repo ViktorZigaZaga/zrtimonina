@@ -1,5 +1,5 @@
 import React from "react";
-import PropsTypes from 'prop-types';
+// import PropsTypes from 'prop-types';
 
 export default function MarksOfDistinctionItem(props) {
     const {item} = props;
@@ -14,6 +14,6 @@ export default function MarksOfDistinctionItem(props) {
     );
 }
 
-MarksOfDistinctionItem.propsTypes = {
-    item: PropsTypes.object.isRequired
-}
+// MarksOfDistinctionItem.propsTypes = {
+//     item: PropsTypes.object.isRequired
+// }

@@ -1,5 +1,5 @@
 import React from "react";
-import PropsTypes from 'prop-types';
+// import PropsTypes from 'prop-types';
 
 export default function ContestsItem(props) {
     const {item} = props;
@@ -14,6 +14,6 @@ export default function ContestsItem(props) {
     );
 }
 
-ContestsItem.propsTypes = {
-    item: PropsTypes.object.isRequired
-}
+// ContestsItem.propsTypes = {
+//     item: PropsTypes.object.isRequired
+// }
