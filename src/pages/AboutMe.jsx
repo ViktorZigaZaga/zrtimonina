@@ -62,9 +62,6 @@ function AboutMe() {
                     <StorePublications />
                     <br/>
                 </div>
-                <div>
-                    <img src="images/certificate-1.jpg" />
-                </div>
             </div>
         </article>
     );
