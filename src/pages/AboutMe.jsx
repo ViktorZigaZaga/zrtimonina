@@ -5,6 +5,7 @@ import StoreEncouragements from '../store/StoreEncouragements'
 import StoreMarksOfDistinction from '../store/StoreMarksOfDistinction'
 import StorePublications from '../store/StorePublications'
 import Modal from "../components/Modal";
+import ScrollTop from "../components/ScrollTop";
 
 function AboutMe() {
 
@@ -12,6 +13,7 @@ function AboutMe() {
 
     return (
         <article className="article">
+            <ScrollTop />
             <div className="article__title">
                 <div className="article__paragraph aboutme">
                     <span>
