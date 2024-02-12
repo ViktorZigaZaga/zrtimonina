@@ -17,9 +17,12 @@ function HomePage() {
                         </cite></footer>
                     </strong>
                 </span>
-                <button className="article__btn">
-                    Напиши мне
-                </button>
+                <form method="LINK" action="mailto:tzr.r42@gmail.com?subject=Вопрос&body=Здравствуйте, Зельфия Рамазановна!">
+                    <input className="article__btn" type="submit" value="Напиши мне" />
+                </form>
+                {/* <button className="article__btn">
+                    <a className="article__btn" href="mailto:tzr.r42@gmail.com?subject=Вопрос&body=Здравствуйте, Зельфия Рамазановна!">Напиши мне</a>
+                </button> */}
             </div>
             <div className="article__photo">
                 <img src="https://raw.githubusercontent.com/ViktorZigaZaga/zrtimonina/main/src/images/photo.jpeg" alt="фото учителя" width={400} height={600} />

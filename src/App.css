@@ -112,17 +112,7 @@ body {
   background-color: rgba(255, 255, 255, 0.2);
   border: 0.05em;
   border-style: hidden;
-}
-
-.article__btn:hover {
-  opacity: 1;
-  border-bottom-color: #4073bf;
-}
-
-.article__btn-active,
-.article__btn-active:hover {
-  opacity: 1;
-  border-bottom-color: #0089fa;
+  cursor: pointer;
 }
 
 .menu {

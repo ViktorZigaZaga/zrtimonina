@@ -17,7 +17,7 @@ function Interestingly() {
                     <br />
                     <br />
                 </span>
-                <img src="https://raw.githubusercontent.com/ViktorZigaZaga/zrtimonina/main/src/images/interestingPhysics.jpg" alt="Интересная физика" width={780} height={400} />
+                <img src="https://raw.githubusercontent.com/ViktorZigaZaga/zrtimonina/main/src/images/interestingPhysics.jpg" alt="Интересная физика" width={780} height={500} />
             </div>
     </article>
 
